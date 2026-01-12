@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
-import { countries } from '../data';
-import { Country } from '../types';
+import { countries } from '../data.ts';
+import { Country } from '../types.ts';
 
 const SearchView: React.FC = () => {
   const [query, setQuery] = useState('');

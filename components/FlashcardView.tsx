@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
-import { FlashcardUnit, Country } from '../types';
-import { countries } from '../data';
+import { FlashcardUnit, Country } from '../types.ts';
+import { countries } from '../data.ts';
 
 interface Props {
   unit: FlashcardUnit;

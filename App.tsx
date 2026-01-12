@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo } from 'react';
-import { AppMode, Country, FlashcardUnit, Continent } from './types';
-import { countries } from './data';
-import FlashcardView from './components/FlashcardView';
-import QuizView from './components/QuizView';
-import SearchView from './components/SearchView';
+import { AppMode, Country, FlashcardUnit, Continent } from './types.ts';
+import { countries } from './data.ts';
+import FlashcardView from './components/FlashcardView.tsx';
+import QuizView from './components/QuizView.tsx';
+import SearchView from './components/SearchView.tsx';
 
 const App: React.FC = () => {
   const [mode, setMode] = useState<AppMode>(AppMode.Home);

@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
-import { Country, QuizQuestion } from '../types';
-import { countries } from '../data';
+import { Country, QuizQuestion } from '../types.ts';
+import { countries } from '../data.ts';
 
 interface Props {
   onFinish: () => void;
